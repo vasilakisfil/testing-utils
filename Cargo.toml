@@ -1,0 +1,14 @@
+[package]
+name = "testing-utils"
+version = "0.1.0"
+authors = ["Filippos Vasilakis <vasilakisfil@gmail.com>"]
+edition = "2018"
+description = "Simple testing utils"
+repository = "https://github.com/vasilakisfil/testing-utils"
+documentation = "https://docs.rs/testing-utils"
+keywords = ["test", "utils", "traits", "randomize"]
+categories = ["development-tools"]
+license-file = "LICENSE"
+
+[dependencies]
+rand = { version = "0.8.4" }
